@@ -19,12 +19,10 @@
     margin: 5px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px 5px rgba(128, 128, 128, 0.703);
-    transition: .3s ease;
+   transition: transform 0.7s ease-in-out;
 }
-.Skills img:hover {
-    transform: scaleY(1);
-    cursor: pointer;
-    
-  }
+.Skills img:hover{
+    transform: scale(.9) rotate(360deg);
+}
 
   

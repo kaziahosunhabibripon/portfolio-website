@@ -8,6 +8,11 @@ import bootstrap from '../../Images/bootstrap.png';
 import html from '../../Images/html.jpg';
 import css from '../../Images/css.jpg';
 import js from '../../Images/js.jpg';
+import node from '../../Images/nodejs.png';
+import react from '../../Images/React-JS.png';
+import express from '../../Images/express-js.png';
+import mongo from '../../Images/MongoDB-logo.png';
+import firebase from '../../Images/firebase.png';
 const Skills = () => {
     return (
         <section className="row m-0 p-0">
@@ -38,23 +43,25 @@ const Skills = () => {
                 </Card>
             </div>
             <div className="col-md-6 shadow-lg rounded">
-            <h1 className="text-center skill-heading">My Skills</h1>
+                <h1 className="text-center">My Skills</h1>
                 <div className="row m-0 p-0">
                     <div className="col-md-4 Skills">
-                        <img src={html} alt="HTML" /> 
+                        <img src={html} alt="HTML" />
+                        <img src={js} alt="js" />
+                        <img src={express} alt="express" />                  
                     </div>
                     <div className="col-md-4 Skills">
-                        <img src={css} alt="css"  />  
+                        <img src={css} alt="css" />
+                        <img src={node} alt="node" />
+                        <img src={mongo} alt="mongo" />
                     </div>
                     <div className="col-md-4 Skills">
-                        <img src={bootstrap} alt="bootstrap"  />
+                        <img src={bootstrap} alt="bootstrap" />
+                        <img src={react} alt="react" />
+                        <img src={firebase} alt="firebase" />
                     </div>
-                    <div className="col-md-4 Skills">
-                        <img src={js} alt="js"  />
-                    </div>
-                    
                 </div>
-            </div>    
+            </div>
         </section>
     );
 };
