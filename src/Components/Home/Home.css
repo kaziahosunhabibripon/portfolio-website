@@ -1,0 +1,24 @@
+.main-container{
+    background-image: url('../../Images/background.jfif');
+    background-size: cover;
+    position: relative;
+    
+  
+}
+.main-container::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 15, 15, 0.253);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.9;  
+    z-index: 0;
+}
+.main-container > * {
+    z-index: 10;
+    position: relative;
+    opacity: 0.8;
+}

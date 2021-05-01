@@ -2,9 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import logo from '../../../Images/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBlogger, faConnectdevelop} from '@fortawesome/free-brands-svg-icons';
+import {  faHome } from '@fortawesome/free-solid-svg-icons';
+import { faFilePdf, faIdCard } from '@fortawesome/free-regular-svg-icons';
 const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
                     <img src={logo} alt="logo" height="50px"/>
@@ -13,22 +17,22 @@ const Header = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0 list-color">
                         <li className="nav-item">
-                            <Link className="nav-link active" to="/">Home</Link>
+                            <Link className="nav-link active" to="/"><FontAwesomeIcon icon={faHome}  className="text-success"/> <span>Home</span></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/projects">Projects</Link>
+                            <Link className="nav-link" to="/projects"><FontAwesomeIcon icon={faConnectdevelop}  className="text-primary"/> <span>Projects</span></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/blog">Blogs</Link>
+                            <Link className="nav-link" to="/blog"><FontAwesomeIcon icon={faBlogger}  className="text-danger"/> <span>Blogs</span></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/resume">Resume</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link>
+                            <Link className="nav-link" to="/contact"> <FontAwesomeIcon icon={faIdCard}  className="text-warning"/> <span >Contact</span> </Link>
                         </li> 
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/resume"><FontAwesomeIcon icon={faFilePdf}  className="text-danger"/> <span>Resume</span></Link>
+                        </li>
                     </ul>
                 </div>
             </div>

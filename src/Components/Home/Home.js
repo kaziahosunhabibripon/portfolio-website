@@ -1,17 +1,16 @@
 import React from 'react';
+import Body from '../Body/Body';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
 import './Home.css';
 const Home = () => {
     return (
-        <main className="container">
+        <main className="main-container">
             <section>
                 <Header></Header>
             </section>
             <section>
-                <div className="container-fluid">
-                    <h1 className="text-center">Main</h1>
-                </div>
+               <Body></Body>
             </section>
             <section>
                 <Footer></Footer>

@@ -1,0 +1,8 @@
+.list-color span{
+    color:whitesmoke !important;
+    font-weight:bold;
+    font-family: Roboto;
+    font-size:large;
+    transition: transform 0.35s ease-in-out !important;
+  transition: transform 0.35s ease-in-out !important;
+}
