@@ -2,7 +2,7 @@ import React from 'react';
 import './Body.css';
 import coding from '../../Images/coding.png';
 import Typewriter from "typewriter-effect";
-
+import myPic from '../../Images/mypict.png';
 const Body = () => {
     return (
         <section className="row m-0 p-0">
@@ -11,7 +11,7 @@ const Body = () => {
             </div>
             <div className="col-md-6">
                 <h1 style={{ paddingBottom: 15 }} className="heading text-left p-2 text-warning">
-                    Hi <span className="text-danger">There!</span> <span className="wave">👋🏻</span>
+                    Hi <span className="text-danger">Visitor!</span> <span className="wave">👋🏻</span>
                 </h1>
                 <h1 className="heading-name text-info">
                     I'M
@@ -33,13 +33,14 @@ const Body = () => {
                         }}
                     />
                 </span>
+                <div className="picture-div myAnimation">
+                    <img src={myPic} alt="mypic" className="lg-shadow rounded" />
+                </div>
             </div>
-            <div className="col-md-4 myAnimation">
+            <div className="col-md-5">
                 <img src={coding} alt="right" className="right-image" />
             </div>
-            <div className="col-md-1">
-
-            </div>
+            
         </section>
     );
 };

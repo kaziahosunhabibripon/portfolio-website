@@ -2,6 +2,7 @@ import React from 'react';
 import Body from '../Body/Body';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
+import Skills from '../Skills/Skills';
 import './Home.css';
 const Home = () => {
     return (
@@ -11,6 +12,9 @@ const Home = () => {
             </section>
             <section>
                <Body></Body>
+            </section>
+            <section>
+                <Skills></Skills>
             </section>
             <section>
                 <Footer></Footer>
