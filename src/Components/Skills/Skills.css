@@ -1,3 +1,30 @@
 .card-content{
     background-color:#092028a9;
 }
+.skill-heading{
+    text-shadow: 2px 2px 5px #108cb67c;
+    color: #010e13ea ;
+}
+
+.Skills{
+    margin:5px auto; 
+  
+}
+.Skills img{
+    width:200px;
+    height:200px;
+    justify-content:center;
+    align-items:center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgba(128, 128, 128, 0.703);
+    transition: .3s ease;
+}
+.Skills img:hover {
+    transform: scaleY(1);
+    cursor: pointer;
+    
+  }
+
+  
