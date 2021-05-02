@@ -1,5 +1,6 @@
 import React from 'react';
 import Body from '../Body/Body';
+import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
@@ -19,6 +20,9 @@ const Home = () => {
             </section>
             <section>
                 <Projects></Projects>
+            </section>
+            <section>
+                <Contact></Contact>
             </section>
             <section>
                 <Footer></Footer>

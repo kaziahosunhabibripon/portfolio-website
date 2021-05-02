@@ -1,10 +1,8 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import './Project.css';
-const Project = ({ project }) => {
-    console.log(project);
-    
-    const { title, details, image, code, live } = project;
+const Project = ({ project }) => {    
+    const { title, image, code, live } = project;
     return (
         <Card style={{ width: "30rem" }} className="card-content shadow-lg rounded m-2 p-2">
             <Card.Title className="text-center pt-3"> <h3 className="text-info">{title}</h3></Card.Title>
