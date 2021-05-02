@@ -22,7 +22,7 @@ export default function Contact() {
       <div>
           <div className="container">
               <h1 className="text-center text-success">Contact From</h1>
-              <form onSubmit={sendEmail}>
+              <form className="contact-form" onSubmit={sendEmail}>
                   <div className="row pt-5 mx-auto">
                       <div className="col-md-8 from-group mx-auto">
                           <input type="text" className="form-control" placeholder ="Name" name="name"/>
