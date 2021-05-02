@@ -18,8 +18,8 @@ const Skills = () => {
         <section className="row m-0 p-0">
             <div className="col-md-1">
             </div>
-            <div className="col-md-4">
-                <Card style={{ width: '30rem' }} className="card-content shadow-lg rounded">
+            <div className="col-md-4 myAnimationLeft">
+                <Card style={{width:"25rem"}} className="card-content shadow-lg rounded">
                     <Card.Body>
                         <Card.Title className="text-center"> <h1 className="text-info">About Me</h1></Card.Title>
                         <Card.Text className="text-white">
@@ -28,11 +28,11 @@ const Skills = () => {
                         </Card.Text>
                     </Card.Body>
                     <div className="row d-flex pl-3">
-                        <ul className="col-md-6 list-unstyled text-success">
+                        <ul className="col-md-6 list-unstyled text-warning">
                             <li className="p-1">Email : habibkazi92@gmail.com </li>
                             <li className="p-1">Education: BSc in CSE </li>
                         </ul>
-                        <ul className="col-md-6 list-unstyled text-success">
+                        <ul className="col-md-6 list-unstyled text-info">
                             <li className="p-1">Phone: +8801744455715 </li>
                             <li className="p-1">Hobby: Swimming, Playing, Coding </li>
                         </ul>
@@ -42,9 +42,9 @@ const Skills = () => {
                     </Card.Body>
                 </Card>
             </div>
-            <div className="col-md-6 shadow-lg rounded">
+            <div className="col-md-6 shadow-lg rounded myAnimationRight">
                 <h1 className="text-center">My Skills</h1>
-                <div className="row m-0 p-0">
+                <div className="row m-0 p-0 text-center">
                     <div className="col-md-4 Skills">
                         <img src={html} alt="HTML" />
                         <img src={js} alt="js" />

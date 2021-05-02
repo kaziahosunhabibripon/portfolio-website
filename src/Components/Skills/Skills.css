@@ -10,6 +10,24 @@
     margin:5px auto; 
   
 }
+.myAnimationRight{
+    position: relative;
+    animation: mymove2 5s infinite;
+}
+
+@keyframes mymove2 {
+    from {right: 0px;}
+    to {right: 25px;}
+  }
+.myAnimationLeft{
+    position: relative;
+    animation: mymove3 5s infinite;
+}
+
+@keyframes mymove3 {
+    from {left: 0px;}
+    to {left: 25px;}
+  }
 .Skills img{
     width:200px;
     height:200px;
