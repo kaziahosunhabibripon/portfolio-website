@@ -11,8 +11,7 @@ import node from '../../Images/nodejs.png';
 import react from '../../Images/React-JS.png';
 import express from '../../Images/express-js.png';
 import mongo from '../../Images/MongoDB-logo.png';
-import firebase from '../../Images/firebase.png';
-import rest from '../../Images/firebase.png';
+import rest from '../../Images/rest.jpg';
 import { Link } from 'react-router-dom';
 const Skills = () => {
     const skills = [
@@ -49,12 +48,9 @@ const Skills = () => {
             id:8,
             name:mongo
         },
+        
         { 
             id:9,
-            name:firebase
-        },
-        { 
-            id:10,
             name:rest
         }
        
@@ -89,10 +85,10 @@ const Skills = () => {
             </div>
             <div className="col-md-8">
                 <h1 className="text-center text-dark text-uppercase pt-3">My Skills</h1>
-               <div className="row m-0 p-0 d-flex">
+               <div className="row row-container m-0 p-0 d-flex">
                {
                     skills.map(skill=>
-                        <div className="col-md-4 text-center myAnimationRight Skills " key={skill.id} skill={skill}>
+                        <div className="col-md-4 col-sm-4 text-center myAnimationRight Skills" key={skill.id} skill={skill}>
                             <img src={skill.name} alt="skill" />
                         </div>
                      )
