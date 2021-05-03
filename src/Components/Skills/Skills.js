@@ -59,7 +59,7 @@ const Skills = () => {
         <section className="row m-0 p-0">
             <div className="col-md-4 myAnimationLeft">
                 <div className="card card-content">
-                    <div className="card-body">
+                    <div className="card-body" id="resume">
                         <h1 className="text-info text-center">About Me</h1>
                         <p className="text-white">
                             Hi I am <span className="text-warning"> Kazi Ahosun Habib Ripon</span>. I am a MERN stack web developer. I have vast experience to make all type of responsive web page design.

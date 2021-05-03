@@ -22,16 +22,16 @@ const Header = () => {
                             <Link className="nav-link active" to="/"><FontAwesomeIcon icon={faHome}  className="text-success"/> <span>Home</span></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/projects"><FontAwesomeIcon icon={faConnectdevelop}  className="text-primary"/> <span>Projects</span></Link>
+                            <a className="nav-link" href="#project"><FontAwesomeIcon icon={faConnectdevelop}  className="text-primary"/> <span>Projects</span></a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/blog"><FontAwesomeIcon icon={faBlogger}  className="text-danger"/> <span>Blogs</span></Link>
+                            <a className="nav-link"  href="#blogs" ><FontAwesomeIcon icon={faBlogger}  className="text-danger"/> <span > Blogs</span></a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact"> <FontAwesomeIcon icon={faIdCard}  className="text-warning"/> <span >Contact</span> </Link>
+                            <a className="nav-link" href="#contact"> <FontAwesomeIcon icon={faIdCard}  className="text-warning"/> <span >Contact</span> </a>
                         </li> 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/resume"><FontAwesomeIcon icon={faFilePdf}  className="text-danger"/> <span>Resume</span></Link>
+                            <a className="nav-link" href="#resume"><FontAwesomeIcon icon={faFilePdf}  className="text-danger"/> <span>Resume</span></a>
                         </li>
                     </ul>
                 </div>

@@ -5,27 +5,20 @@ import Projects from '../Projects/Projects';
 import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
 import Skills from '../Skills/Skills';
+
 import './Home.css';
+
 const Home = () => {
     return (
         <main className="main-container">
             <section>
                 <Header></Header>
-            </section>
-            <section>
-               <Body></Body>
-            </section>
-            <section>
-                <Skills></Skills>
-            </section>
-            <section>
+                <Body></Body>
+                <Skills></Skills>  
                 <Projects></Projects>
-            </section>
-            <section>
                 <Contact></Contact>
-            </section>
-            <section>
-                <Footer></Footer>
+                <Footer>
+                </Footer>
             </section>
         </main>
     );

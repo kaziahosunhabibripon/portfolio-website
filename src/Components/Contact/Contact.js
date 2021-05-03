@@ -17,7 +17,7 @@ export default function Contact() {
     }
     return (
         <div>
-            <div className="container pt-2 myAnimationLeft">
+            <div className="container pt-2 myAnimationLeft" id="contact">
                 <h1 className="text-center text-white">Contact From</h1>
                 <form className="contact-form" onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">

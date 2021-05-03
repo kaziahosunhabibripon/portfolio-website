@@ -1,1 +1,10 @@
 
+.blogs{
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+}
+.blogs:hover{
+    transform: scale(1.6);
+    margin-right:25%;
+    overflow: hidden;
+}

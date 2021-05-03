@@ -13,18 +13,7 @@ function App() {
           <Route path="/">
             <Home></Home>
           </Route>
-          <Route path="/projects">
-          <Home></Home>
-          </Route>
-          <Route path="/blog">
-          <Home></Home>
-          </Route>
-          <Route path="/resume">
-          <Home></Home>
-          </Route>
-          <Route path="/contact">
-          <Home></Home>
-          </Route>
+          
         </Switch>
       </Router>
     </div>

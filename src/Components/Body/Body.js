@@ -2,8 +2,14 @@ import React from 'react';
 import './Body.css';
 import Typewriter from "typewriter-effect";
 import myPic from '../../Images/mypict.png';
-
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Body = () => {
+    const btnStyle= {
+        position:"sticky",
+        right:"10px",
+        bottom:"10px",
+    }
     return (
         <div className="row row-container m-0 p-0">
             <div className="col-md-6">
@@ -38,6 +44,9 @@ const Body = () => {
                     <img src={myPic} alt="mypic" className="picture-div myAnimationRight" style={{ marginLeft: "5%" }} />
                 </div>
             </div>
+            {/* <button id="scrollTop" className="btn" style={btnStyle}>
+                <FontAwesomeIcon icon={faChevronUp} className="text-danger" />
+            </button> */}
         </div>
     );
 };
