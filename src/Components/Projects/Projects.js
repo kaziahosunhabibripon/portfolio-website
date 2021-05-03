@@ -51,15 +51,13 @@ const Projects = () => {
                 </div>
             </div>
             <div className="col-md-4 col mt-2 pt-2">
-                <Card style={{ width: "25rem"}} className="m-2 card-content shadow-lg rounded">
-                    <Card.Title className="text-center pt-3"> <h3 className="text-info">Medium Article</h3></Card.Title>
-                    <Card.Body>
-                        <img src='https://i.ibb.co/5WsK49K/Blogs.png' alt="Blogs" height="300" />
-                    </Card.Body>
+                <Card  className="m-2 card-content shadow-lg rounded">
+                    <Card.Title className="text-center m-2 p-2"> <h3 className="text-info">Medium Article</h3></Card.Title>
+                    <img src='https://i.ibb.co/5WsK49K/Blogs.png' alt="Blogs" className="p-4" />
                     <Card.Body className="text-center">
                         <Card.Link href="https://habibkazi92.medium.com/4-kinds-of-javascript-bindings-with-this-keyword-327738876c39">
                             <button className="btn btn-info text-white">
-                            Details </button></Card.Link>
+                                Details </button></Card.Link>
                     </Card.Body>
                 </Card>
             </div>

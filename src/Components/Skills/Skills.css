@@ -1,14 +1,10 @@
 .card-content{
     background-color:#092028a9;
 }
-.skill-heading{
-    text-shadow: 2px 2px 5px #108cb67c;
-    color: #010e13ea ;
-}
+
 
 .Skills{
     margin:5px auto; 
-  
 }
 .myAnimationRight{
     position: relative;
@@ -16,8 +12,8 @@
 }
 
 @keyframes mymove2 {
-    from {right: 0px;}
-    to {right: 25px;}
+    from {right: -5px;}
+    to {right: 15px;}
   }
 .myAnimationLeft{
     position: relative;
@@ -25,16 +21,13 @@
 }
 
 @keyframes mymove3 {
-    from {left: 0px;}
-    to {left: 25px;}
+    from {left: -5px;}
+    to {left: 10px;}
   }
 .Skills img{
-    width:200px;
-    height:200px;
-    justify-content:center;
-    align-items:center;
-    padding: 5px;
-    margin: 5px;
+    width:250px;
+    height:250px;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px 5px rgba(128, 128, 128, 0.703);
    transition: transform 0.7s ease-in-out;
