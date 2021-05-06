@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
 import Project from '../Project/Project';
 import './Projects.css';
 
@@ -41,30 +40,13 @@ const Projects = () => {
         }
     ]
     return (
-        <section className="row m-0 p-0">
-            <div className="col-md-8 d-flex mt-1 pt-2">
-                <div className="row m-0 p-0"> 
-                   <h1 className="text-center text-uppercase text-info p-1" id="project">Projects</h1>
-                    {
-                        Projects.map(project => <Project key={project.id} project={project}>
-                        </Project>)
-                    }
-                    
-                </div>
-            </div> 
-            <div className="col-md-4 col mt-2 pt-2" id="blogs">
-                <h1 className="text-center text-uppercase text-info p-1" >Blogs</h1>
-                <Card className="m-2 card-content shadow-lg rounded">
-                    <Card.Title className="text-center m-2 p-2"> <h3 className="text-warning">Medium Article</h3></Card.Title>
-                    <img src='https://i.ibb.co/5WsK49K/Blogs.png' alt="Blogs" className="p-4 blogs" />
-                    <Card.Body className="text-center">
-                        <Card.Link href="https://habibkazi92.medium.com/4-kinds-of-javascript-bindings-with-this-keyword-327738876c39">
-                            <button className="btn btn-info text-white">
-                                Details </button></Card.Link>
-                    </Card.Body>
-                </Card>
-            </div>
-        </section>
+        <div className="row m-0 p-0">
+            <h1 className="text-center text-uppercase text-info p-1" id="project">Projects</h1>
+            {
+                Projects.map(project => <Project key={project.id} project={project}>
+                </Project>)
+            }
+        </div>
     );
 };
 

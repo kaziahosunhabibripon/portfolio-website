@@ -4,10 +4,10 @@ import './Project.css';
 const Project = ({ project }) => {
     const { title, image, code, live,details } = project;
     return (
-        <div className="col-md-6 projects">
+        <div className="col-md-4">
             <Card className="card-content shadow-lg rounded m-2 p-2">
                 <Card.Title className="text-center pt-3"> <h3 className="text-warning">{title}</h3></Card.Title>
-                <Card.Body className="p-3 projects-image">
+                <Card.Body className="p-3 projects-image projects">
                     <img src={image} className="card-img-top rounded" alt={title} height="350" />
                     <div className="projects-title">
                         {title}
