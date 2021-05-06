@@ -1,15 +1,10 @@
 import React from 'react';
 import './Body.css';
 import Typewriter from "typewriter-effect";
-import myPic from '../../Images/mypict.png';
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import coding from '../../Images/coding.png';
+
 const Body = () => {
-    const btnStyle= {
-        position:"sticky",
-        right:"10px",
-        bottom:"10px",
-    }
+    
     return (
         <div className="row row-container m-0 p-0">
             <div className="col-md-6">
@@ -39,14 +34,9 @@ const Body = () => {
                     </span>
                 </div>
             </div>
-            <div className="col-md-6">
-                <div className="p-2 right-part">
-                    <img src={myPic} alt="mypic" className="picture-div myAnimationRight" style={{ marginLeft: "5%" }} />
-                </div>
+            <div className="col-md-6 right-part">
+                <img src={coding} alt="coding" className="right-image"/>
             </div>
-            {/* <button id="scrollTop" className="btn" style={btnStyle}>
-                <FontAwesomeIcon icon={faChevronUp} className="text-danger" />
-            </button> */}
         </div>
     );
 };

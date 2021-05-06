@@ -1,0 +1,18 @@
+.card{
+    border:none;
+}
+.about-div {
+   position: relative; 
+}
+
+.myAnimationRightImage{
+    position: relative;
+    animation: mymove4 15s infinite;
+    position: absolute; 
+    z-index: -1;  
+}
+
+@keyframes mymove4 {
+    from {right: 0px;}
+    to {right: 50%;}
+  }

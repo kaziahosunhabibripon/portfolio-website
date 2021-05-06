@@ -5,18 +5,16 @@
 }
 
 .right-part {
-  background-image: url('../../Images/coding.png');
-  background-repeat: no-repeat;
-  background-size: cover;
   opacity: 0.9;
-  
-  
-}
-.right-part img{
-  display: inline-block;
-  
+  background-image: url('../../Images/pre.svg');
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
+.right-image{
+  width: 100%;
+  height: auto !important;
+}
 .picture-div{
   animation-timing-function: ease-in-out;
   border-radius: 50%;

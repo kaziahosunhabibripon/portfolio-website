@@ -12,8 +12,8 @@
 }
 
 @keyframes mymove2 {
-    from {right: -5px;}
-    to {right: 15px;}
+    from {right: 0px;}
+    to {right: 25px;}
   }
 .myAnimationLeft{
     position: relative;
