@@ -12,7 +12,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url("../../Images/background.jfif");
+    background-image: linear-gradient(.25turn, rgba(128, 128, 128, 0.644),rgba(255, 0, 0, 0.548),rgba(0, 0, 0, 0.568),rgba(128, 0, 128, 0.651),rgba(145, 152, 229, 0.795),rgba(230, 100, 100, 0.726), rgba(230, 100, 230, 0.466),rgba(9, 9, 121, 0.705));
     position: absolute;
     background-size: cover;
     top: 0;
