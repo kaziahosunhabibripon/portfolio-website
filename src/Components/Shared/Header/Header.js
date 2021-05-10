@@ -8,7 +8,7 @@ import {  faHome } from '@fortawesome/free-solid-svg-icons';
 import { faFilePdf, faIdCard } from '@fortawesome/free-regular-svg-icons';
 const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-light navbar-bg">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
                     <img src={logo} alt="logo" height="50px"/>

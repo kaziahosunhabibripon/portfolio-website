@@ -2,11 +2,12 @@ import React from 'react';
 import './Body.css';
 import Typewriter from "typewriter-effect";
 import coding from '../../Images/coding.png';
-
+import Header from '../Shared/Header/Header';
 const Body = () => {
     
     return (
         <div className="row row-container m-0 p-0">
+            <Header></Header>
             <div className="col-md-6">
                 <div className="p-4">
                     <h1 style={{ paddingBottom: 15 }} className="heading text-left text-warning">
@@ -36,7 +37,7 @@ const Body = () => {
             </div>
             <div className="col-md-6 right-part">
                 <img src={coding} alt="coding" className="right-image"/>
-            </div>
+            </div>        
         </div>
     );
 };

@@ -7,13 +7,13 @@ import myPic from '../../Images/mypict.png';
 import './AboutMe.css';
 const AboutMe = () => {
     return (
-        <div className="row container-fluid m-0 p-0 d-flex">
+        <div className="row  m-0 p-0 d-flex">
             <div className="col-md-1">
 
             </div>
            
-            <div className="col-md-4 myAnimationLeft">
-                <div className="card card-content">
+            <div className="col-md-4 myAnimationLeft mt-3">
+                <div className="card card-content ">
                     <div className="card-body" id="resume">
                         <h1 className="text-info text-center">About Me</h1>
                         <p className="text-white">
@@ -38,9 +38,8 @@ const AboutMe = () => {
                 </div>
             </div>
             
-            
-            <div className="col-md-6 about-div"> 
-                <div className="card card-content myAnimationRightImage">
+            <div className="col-md-6 mt-3"> 
+                <div className="card card-content myAnimationRightImage" style={{width:"20rem"}}>
                     <img src={myPic} alt="mypic" />
                 </div>
             </div>
