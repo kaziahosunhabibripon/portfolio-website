@@ -10,10 +10,14 @@
     animation: mymove4 15s infinite;
    
 }
-.col-md-6 {
-    border: 1px solid black;
+.myAnimationLeftdiv{
+    animation: leftDiv 15s infinite;
+    
 }
-
+@keyframes leftDiv{
+    from {left: -25px;}
+    to {left: 25%;}
+}
 @keyframes mymove4 {
     from {right: 0px;}
     to {right: 25%;}

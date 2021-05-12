@@ -7,17 +7,13 @@ import myPic from '../../Images/mypict.png';
 import './AboutMe.css';
 const AboutMe = () => {
     return (
-        <div className="row  m-0 p-0 d-flex">
-            <div className="col-md-1">
-
-            </div>
-           
-            <div className="col-md-4 myAnimationLeft mt-3">
-                <div className="card card-content ">
+        <div className="row row-container m-0 p-0 d-flex">
+            <div className="col-md-4 myAnimationLeftdiv mt-3 text-left">
+                <div className="card card-content mt-3">
                     <div className="card-body" id="resume">
-                        <h1 className="text-info text-center">About Me</h1>
+                        <h1 className="text-info">About Me</h1>
                         <p className="text-white">
-                            Hi I am <span className="text-warning"> Kazi Ahosun Habib Ripon</span>. I am a MERN stack web developer. I have vast experience to make all type of responsive web page design.
+                            Hi I am <span className="text-warning"> Kazi Ahosun Habib Ripon</span>. I am a MERN stack & web developer. I have vast experience to make all type of responsive web page design.
                             I have a well expertise in experience in HTML, CSS, Bootstrap,Javascript and React.
                         </p>
                         <ul className="list-unstyled">
@@ -37,10 +33,9 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-            
-            <div className="col-md-6 mt-3"> 
-                <div className="card card-content myAnimationRightImage" style={{width:"20rem"}}>
-                    <img src={myPic} alt="mypic" />
+            <div className="col-md-8 about-div"> 
+                <div className="mt-3">
+                    <img src={myPic} alt="mypic" className="myAnimationRightImage"/>
                 </div>
             </div>
             
