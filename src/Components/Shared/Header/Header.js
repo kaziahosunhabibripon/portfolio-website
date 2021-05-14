@@ -17,7 +17,7 @@ const Header = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0 list-color">
+                    <ul className="navbar-nav ml-auto mb-2 mb-lg-0 list-color">
                         <li className="nav-item">
                             <Link className="nav-link active" to="/"><FontAwesomeIcon icon={faHome}  className="text-success"/> <span>Home</span></Link>
                         </li>

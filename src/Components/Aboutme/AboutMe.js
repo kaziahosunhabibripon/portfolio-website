@@ -3,7 +3,7 @@ import Resume from '../../Images/Resume.pdf';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import myPic from '../../Images/mypict.png';
+import myPic from '../../Images/mypic.jpg';
 import './AboutMe.css';
 const AboutMe = () => {
     return (
@@ -35,7 +35,7 @@ const AboutMe = () => {
             </div>
             <div className="col-md-8 about-div"> 
                 <div className="mt-3">
-                    <img src={myPic} alt="mypic" className="myAnimationRightImage"/>
+                    <img src={myPic} alt="mypic" className="myAnimationRightImage" height="250px"/>
                 </div>
             </div>
             
