@@ -17,9 +17,9 @@ export default function Contact() {
     }
     return (
         <div>
-            <div className="container pt-2 myAnimationLeft" id="contact">
+            <div className="container pt-2" id="contact">
                 <h1 className="text-center text-white">Contact From</h1>
-                <form className="contact-form" onSubmit={sendEmail}>
+                <form className="contact-form myAnimationLeft" onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-md-8 from-group mx-auto">
                             <input type="text" className="form-control" placeholder="Name" name="name" />

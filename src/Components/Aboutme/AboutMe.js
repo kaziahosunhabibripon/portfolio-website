@@ -5,10 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import myPic from '../../Images/mypic.jpg';
 import './AboutMe.css';
+
+
 const AboutMe = () => {
     return (
         <div className="row row-container m-0 p-0 d-flex">
-            <div className="col-md-4 myAnimationLeftdiv mt-3 text-left">
+            
+            <div className="col-md-4  mt-3 text-left">
                 <div className="card card-content mt-3">
                     <div className="card-body" id="resume">
                         <h1 className="text-info">About Me</h1>
@@ -19,7 +22,7 @@ const AboutMe = () => {
                         <ul className="list-unstyled">
                             <li className="p-1 text-info">Email : habibkazi92@gmail.com </li>
                             <li className="p-1 text-primary">Education: BSc in CSE </li>
-                            <li className="p-1 text-warning">Phone: +8801744455715 </li>
+                            <li className="p-1 text-warning">Phone: +8801757040046 </li>
                             <li className="p-1 text-success">Hobby: Swimming, Playing, Coding </li>
                         </ul>
                         <div className="text-center">
@@ -33,12 +36,12 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-md-8 about-div"> 
+            <div className="col-md-8 about-div">
                 <div className="mt-3">
-                    <img src={myPic} alt="mypic" className="myAnimationRightImage" height="250px"/>
+                    <img src={myPic} alt="mypic" className="myAnimationRightImage" height="250px" />
                 </div>
             </div>
-            
+
         </div>
     );
 };

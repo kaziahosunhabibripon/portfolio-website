@@ -55,23 +55,19 @@ const Skills = () => {
     return (
         <div className="row container-fluid m-0 p-0">
             <h1 className="text-center text-white text-uppercase pt-3">My Skills</h1>
-            <div className="col-md-4">
-                <div className="mt-5">
-                    
-                </div>
-            </div>
-            <div className="col-md-8">
+           
+            
                 
                <div className="row d-flex">
                {
                     skills.map(skill=>
-                        <div className="col-md-4 text-center myAnimationRight Skills" key={skill.id} skill={skill}>
+                        <div className="col-md-4 text-center  Skills" key={skill.id} skill={skill}>
                             <img src={skill.name} alt="skill" />
                         </div>
                      )
                 }
                </div>
-            </div>
+            
         </div>
     );
 };
