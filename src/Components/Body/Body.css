@@ -2,8 +2,7 @@
 .row-container {
   display: flex;
   width: 100%;
-  background-image: url('../../Images/home-bg.jpg');
-  background-color: #092028b2 !important;
+  /* background-image: url('../../Images/home-bg.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -11,7 +10,6 @@
 
 .right-part {
   opacity: 0.9;
-  
   background-size:contain;
   background-image: url('../../Images/pre.svg');
  
@@ -24,8 +22,7 @@
 .picture-div{
   animation-timing-function: ease-in-out;
   border-radius: 50%;
-  background-color: #092028b2;
-  
+  /* background-color: #092028b2; */
   display: inline-block;
   overflow: hidden;
 }

@@ -1,10 +1,7 @@
-.card-content{
-    background-color:#8a96b457;
-}
 
-
-.Skills{
-    margin:5px auto; 
+.skill{
+   position: relative;
+   overflow: hidden;
 }
 .myAnimationRight{
     position: relative;
@@ -24,14 +21,14 @@
     from {left: -5px;}
     to {left: 10px;}
   }
-.Skills img{
-    width:250px;
-    height:250px;
-    margin: 10px;
-    border-radius: 10px;
-   transition: transform 0.7s ease-in-out;
+.skill img{
+    width:90%;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: transform 0.7s ease-in-out;
 }
-.Skills img:hover{
+.skill img:hover{
     transform: scale(.9) rotate(360deg);
 }
 

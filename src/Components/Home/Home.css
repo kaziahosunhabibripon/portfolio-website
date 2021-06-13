@@ -1,9 +1,11 @@
 .main-container{
     background-position:center;  
-    background-image: url('../../Images/pre.svg');
+    /* background-image: url('../../Images/pre.svg'); */
+     /* background-image: url('../../Images/home-bg.jpg'); */
     background-size:cover;
     background-repeat: no-repeat;
     position: relative;
+    background-color:#092028b2;
 }
 .footerPart{
     background-color:rgba(0, 0, 0, 0.722);
