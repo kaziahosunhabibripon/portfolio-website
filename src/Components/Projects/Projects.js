@@ -6,6 +6,15 @@ const Projects = () => {
     const Projects = [
         {
             id: 1,
+            title: "Chatting App",
+            image: "https://i.ibb.co/s2wqFHj/chatting.png",
+            details: "Sign in with google account sign out with avatar create channel and chat with login channels with other real time chat methods Massage channel",
+            code: "https://github.com/kaziahosunhabibripon/Redux-chatting-app",
+            live: "https://mychartingapp.web.app/"
+
+        },
+        {
+            id: 2,
             title: "Library Service",
             image: "https://i.ibb.co/KVKJ82X/librarypng.png",
             details: "Library Management service user can booking oder by clicking after login can get right products that he clicked",
@@ -14,7 +23,7 @@ const Projects = () => {
 
         },
         {
-            id: 2,
+            id: 3,
             title: "Soccer Team Selector",
             image: "https://i.ibb.co/T2hkqNh/socer.png",
             details: "Soccer Team Selector Management service user can select team by clicking after that can get right team that he clicked",
@@ -23,7 +32,7 @@ const Projects = () => {
 
         },
         {
-            id: 3,
+            id: 4,
             title: "Loan Service",
             image: "https://i.ibb.co/P5sc0SK/loan.png",
             details: "Loan Service Management user can booking loan by clicking after login can get selected loan that he clicked before applying loan he needs to pay loan fees. Admin can approved loan section status update user can show it on his dashboard after he login. user and admin dashboard is different",
@@ -31,7 +40,7 @@ const Projects = () => {
             live: "https://loan-services-6cd72.web.app/"
         },
         {
-            id: 4,
+            id: 5,
             title: "Travel Service",
             image: "https://i.ibb.co/K6y7gJv/travelguru.png",
             details: "Travel Service Management traveler can select vehicle by clicking after login can get right type of vehicles that he clicked. also can search placed to destination to arrival path ",
@@ -40,8 +49,10 @@ const Projects = () => {
         }
     ]
     return (
-        <div className="row m-0 p-0">
-            <h1 className="text-center text-uppercase text-info p-1" id="project">Projects</h1>
+        <div className="row m-0 p-0 pt-2">
+            <div className="col-md-12 mt-2 pt-1">
+                <h1 className="text-center text-uppercase text-info p-1" id="project">Projects</h1>
+            </div>
             {
                 Projects.map(project => <Project key={project.id} project={project}>
                 </Project>)

@@ -1,9 +1,10 @@
+
 .button-part{
     justify-content:space-around;
     display:flex;
 }
 .projects-image{
-    opacity: 0.7;
+    opacity: 0.9;
     cursor:pointer;
 }
 
@@ -12,14 +13,12 @@
     transition: transform 0.7s ease-in-out;
 }
 .projects-image{
-    display: block;
    
+    padding: 10%;
 }
 .projects:hover{
     transform: scale(1.1);
-    background-color:rgba(0, 0, 0, 0.11);
-    margin-bottom:10%;
-    
+    background-color:rgba(0, 0, 0, 0.11);  
 }
 .projects-title:hover{
     opacity: 1;
@@ -46,4 +45,15 @@
     font-size:1.2em;
     margin-top: 0.25em;
 
+}
+.myAnimationprojects{
+    animation: mymove6 15s infinite ease-in-out;
+}
+@keyframes mymove6 {
+    from {
+        left: -2%;
+    }
+    to {
+        left: 2%;
+    }
 }

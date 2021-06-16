@@ -2,7 +2,7 @@
 .row-container {
   display: flex;
   width: 100%;
-  /* background-image: url('../../Images/home-bg.jpg'); */
+ 
   background-repeat: no-repeat;
   background-size: cover;
   
