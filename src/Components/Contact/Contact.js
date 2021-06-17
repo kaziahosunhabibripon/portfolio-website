@@ -6,8 +6,7 @@ import './Contact.css';
 export default function Contact() {
     function sendEmail(e) {
         e.preventDefault();
-
-        emailjs.sendForm('gmail', 'template_cna55yj', e.target, 'user_lAQQjlk69dAjq9sQS1kf2')
+        emailjs.sendForm('gmail', 'template_b39y5nc', e.target, 'user_lAQQjlk69dAjq9sQS1kf2')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -19,7 +18,7 @@ export default function Contact() {
         <div>
             <div className="container pt-2" id="contact">
                 <h1 className="text-center text-white">Contact From</h1>
-                <form className="contact-form myAnimationLeft" onSubmit={sendEmail}>
+                <form  onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-md-8 from-group mx-auto">
                             <input type="text" className="form-control" placeholder="Name" name="name" />
